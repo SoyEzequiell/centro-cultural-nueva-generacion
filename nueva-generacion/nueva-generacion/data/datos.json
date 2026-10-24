@@ -1,0 +1,476 @@
+{
+  "talleres": [
+    {
+      "id": "t1",
+      "nombre": "Guitarra inicial",
+      "categoria": "Música",
+      "profesor": "M. Ríos",
+      "horario": "Lun 5:00 pm",
+      "capacidad": 8,
+      "estado": ""
+    },
+    {
+      "id": "t2",
+      "nombre": "Dibujo y acuarela",
+      "categoria": "Arte",
+      "profesor": "L. Paredes",
+      "horario": "Mar 4:00 pm",
+      "capacidad": 4,
+      "estado": ""
+    },
+    {
+      "id": "t3",
+      "nombre": "Danza folclórica",
+      "categoria": "Danza",
+      "profesor": "C. Vega",
+      "horario": "Mié 6:00 pm",
+      "capacidad": 10,
+      "estado": ""
+    },
+    {
+      "id": "t4",
+      "nombre": "Teatro juvenil",
+      "categoria": "Teatro",
+      "profesor": "R. Soto",
+      "horario": "Jue 5:30 pm",
+      "capacidad": 6,
+      "estado": ""
+    },
+    {
+      "id": "t5",
+      "nombre": "Cerámica",
+      "categoria": "Arte",
+      "profesor": "A. Luna",
+      "horario": "Vie 3:00 pm",
+      "capacidad": 5,
+      "estado": "finalizado"
+    },
+    {
+      "id": "t6",
+      "nombre": "Coro infantil",
+      "categoria": "Música",
+      "profesor": "P. Salas",
+      "horario": "Sáb 10:00 am",
+      "capacidad": 12,
+      "estado": ""
+    }
+  ],
+  "participantes": [
+    {
+      "id": "p1",
+      "nombres": "Ana Torres",
+      "edad": 14,
+      "telefono": "987 654 300",
+      "correo": "ana@correo.com",
+      "emergencia": "Familiar de Ana, 912 345 600"
+    },
+    {
+      "id": "p2",
+      "nombres": "Luis Quispe",
+      "edad": 12,
+      "telefono": "987 654 301",
+      "correo": "luis@correo.com",
+      "emergencia": "Familiar de Luis, 912 345 601"
+    },
+    {
+      "id": "p3",
+      "nombres": "Marta Díaz",
+      "edad": 16,
+      "telefono": "987 654 302",
+      "correo": "marta@correo.com",
+      "emergencia": "Familiar de Marta, 912 345 602"
+    },
+    {
+      "id": "p4",
+      "nombres": "Diego Ramos",
+      "edad": 13,
+      "telefono": "987 654 303",
+      "correo": "diego@correo.com",
+      "emergencia": "Familiar de Diego, 912 345 603"
+    },
+    {
+      "id": "p5",
+      "nombres": "Rosa Mendoza",
+      "edad": 15,
+      "telefono": "987 654 304",
+      "correo": "rosa@correo.com",
+      "emergencia": "Familiar de Rosa, 912 345 604"
+    },
+    {
+      "id": "p6",
+      "nombres": "Carlos Huamán",
+      "edad": 17,
+      "telefono": "987 654 305",
+      "correo": "carlos@correo.com",
+      "emergencia": "Familiar de Carlos, 912 345 605"
+    },
+    {
+      "id": "p7",
+      "nombres": "Lucía Vargas",
+      "edad": 11,
+      "telefono": "987 654 306",
+      "correo": "lucia@correo.com",
+      "emergencia": "Familiar de Lucía, 912 345 606"
+    },
+    {
+      "id": "p8",
+      "nombres": "Mateo Flores",
+      "edad": 10,
+      "telefono": "987 654 307",
+      "correo": "mateo@correo.com",
+      "emergencia": "Familiar de Mateo, 912 345 607"
+    },
+    {
+      "id": "p9",
+      "nombres": "Sofía Castro",
+      "edad": 14,
+      "telefono": "987 654 308",
+      "correo": "sofia@correo.com",
+      "emergencia": "Familiar de Sofía, 912 345 608"
+    },
+    {
+      "id": "p10",
+      "nombres": "Jorge Salazar",
+      "edad": 18,
+      "telefono": "987 654 309",
+      "correo": "jorge@correo.com",
+      "emergencia": "Familiar de Jorge, 912 345 609"
+    },
+    {
+      "id": "p11",
+      "nombres": "Valeria Rojas",
+      "edad": 12,
+      "telefono": "987 654 310",
+      "correo": "valeria@correo.com",
+      "emergencia": "Familiar de Valeria, 912 345 610"
+    },
+    {
+      "id": "p12",
+      "nombres": "Andrés Medina",
+      "edad": 13,
+      "telefono": "987 654 311",
+      "correo": "andres@correo.com",
+      "emergencia": "Familiar de Andrés, 912 345 611"
+    }
+  ],
+  "inscripciones": [
+    {
+      "id": "i0",
+      "pid": "p1",
+      "tid": "t1",
+      "fecha": "2026-07-06"
+    },
+    {
+      "id": "i1",
+      "pid": "p2",
+      "tid": "t1",
+      "fecha": "2026-08-03"
+    },
+    {
+      "id": "i2",
+      "pid": "p3",
+      "tid": "t1",
+      "fecha": "2026-08-24"
+    },
+    {
+      "id": "i3",
+      "pid": "p5",
+      "tid": "t1",
+      "fecha": "2026-09-07"
+    },
+    {
+      "id": "i4",
+      "pid": "p6",
+      "tid": "t1",
+      "fecha": "2026-09-21"
+    },
+    {
+      "id": "i5",
+      "pid": "p7",
+      "tid": "t1",
+      "fecha": "2026-07-06"
+    },
+    {
+      "id": "i6",
+      "pid": "p1",
+      "tid": "t2",
+      "fecha": "2026-08-03"
+    },
+    {
+      "id": "i7",
+      "pid": "p4",
+      "tid": "t2",
+      "fecha": "2026-08-24"
+    },
+    {
+      "id": "i8",
+      "pid": "p8",
+      "tid": "t2",
+      "fecha": "2026-09-07"
+    },
+    {
+      "id": "i9",
+      "pid": "p9",
+      "tid": "t2",
+      "fecha": "2026-09-21"
+    },
+    {
+      "id": "i10",
+      "pid": "p2",
+      "tid": "t3",
+      "fecha": "2026-07-06"
+    },
+    {
+      "id": "i11",
+      "pid": "p3",
+      "tid": "t3",
+      "fecha": "2026-08-03"
+    },
+    {
+      "id": "i12",
+      "pid": "p10",
+      "tid": "t3",
+      "fecha": "2026-08-24"
+    },
+    {
+      "id": "i13",
+      "pid": "p11",
+      "tid": "t3",
+      "fecha": "2026-09-07"
+    },
+    {
+      "id": "i14",
+      "pid": "p12",
+      "tid": "t3",
+      "fecha": "2026-09-21"
+    },
+    {
+      "id": "i15",
+      "pid": "p4",
+      "tid": "t4",
+      "fecha": "2026-07-06"
+    },
+    {
+      "id": "i16",
+      "pid": "p5",
+      "tid": "t4",
+      "fecha": "2026-08-03"
+    },
+    {
+      "id": "i17",
+      "pid": "p6",
+      "tid": "t4",
+      "fecha": "2026-08-24"
+    },
+    {
+      "id": "i18",
+      "pid": "p7",
+      "tid": "t5",
+      "fecha": "2026-09-07"
+    },
+    {
+      "id": "i19",
+      "pid": "p8",
+      "tid": "t5",
+      "fecha": "2026-09-21"
+    },
+    {
+      "id": "i20",
+      "pid": "p9",
+      "tid": "t5",
+      "fecha": "2026-07-06"
+    },
+    {
+      "id": "i21",
+      "pid": "p10",
+      "tid": "t6",
+      "fecha": "2026-08-03"
+    },
+    {
+      "id": "i22",
+      "pid": "p11",
+      "tid": "t6",
+      "fecha": "2026-08-24"
+    },
+    {
+      "id": "i23",
+      "pid": "p12",
+      "tid": "t6",
+      "fecha": "2026-09-07"
+    },
+    {
+      "id": "i24",
+      "pid": "p1",
+      "tid": "t6",
+      "fecha": "2026-09-21"
+    }
+  ],
+  "asistencia": [
+    {
+      "tid": "t1",
+      "fecha": "2026-09-14",
+      "pid": "p1",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-21",
+      "pid": "p1",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-28",
+      "pid": "p1",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-14",
+      "pid": "p2",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-21",
+      "pid": "p2",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-28",
+      "pid": "p2",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-14",
+      "pid": "p3",
+      "presente": false
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-21",
+      "pid": "p3",
+      "presente": false
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-28",
+      "pid": "p3",
+      "presente": false
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-14",
+      "pid": "p5",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-21",
+      "pid": "p5",
+      "presente": false
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-28",
+      "pid": "p5",
+      "presente": false
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-14",
+      "pid": "p6",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-21",
+      "pid": "p6",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-28",
+      "pid": "p6",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-14",
+      "pid": "p7",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-21",
+      "pid": "p7",
+      "presente": true
+    },
+    {
+      "tid": "t1",
+      "fecha": "2026-09-28",
+      "pid": "p7",
+      "presente": false
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": "s1",
+      "pid": "p2",
+      "tipo": "Cambio de horario",
+      "tid": "t3",
+      "detalle": "Prefiere turno de la tarde",
+      "estado": "Pendiente",
+      "fecha": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "pid": "p4",
+      "tipo": "Cancelación",
+      "tid": "t2",
+      "detalle": "Se muda de distrito",
+      "estado": "Pendiente",
+      "fecha": "2026-09-28"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "u1",
+      "usuario": "admin",
+      "nombre": "Administrador",
+      "rol": "Administración",
+      "salt": "577758f5edb8",
+      "hash": "cd05ac4ea87f392cc955749eeb25ffe100507d685ede864003378a2186285b79",
+      "activo": true
+    },
+    {
+      "id": "u2",
+      "usuario": "recepcion",
+      "nombre": "Recepción",
+      "rol": "Recepción",
+      "salt": "6821204940cc",
+      "hash": "8fded3c88800d199bf843c1223c9c3ef0c431722d3a3a75c270171217373e23f",
+      "activo": true
+    },
+    {
+      "id": "u3",
+      "usuario": "profesor",
+      "nombre": "Profesor",
+      "rol": "Profesor",
+      "salt": "bc5bc4c901eb",
+      "hash": "e9985479d2ce0dc0fabe15685bcef6f0445da12fb88d39d9ae58ccbd71ae942e",
+      "activo": true
+    },
+    {
+      "id": "u4",
+      "usuario": "coordinacion",
+      "nombre": "Coordinación",
+      "rol": "Coordinación",
+      "salt": "0d7568b06584",
+      "hash": "d28db3bdabdac8e1d90e9cfc41a5570aff16a4bdc5c9420ca267ea4dfb55aa50",
+      "activo": true
+    }
+  ]
+}

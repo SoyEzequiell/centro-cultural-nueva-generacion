@@ -1,0 +1,19 @@
+CENTRO CULTURAL NUEVA GENERACIÓN — INICIO RÁPIDO
+
+1. Descomprime toda la carpeta.
+2. Abre una terminal dentro de esta carpeta (la que contiene index.html).
+3. Ejecuta: python -m http.server 8000
+4. En el navegador abre: http://localhost:8000
+
+No abras index.html con doble clic: el navegador puede bloquear la carga de datos.
+Necesitas conexión a internet para cargar Bootstrap y Chart.js desde CDN.
+
+CUENTAS DEMO
+Administración: admin / Admin123!
+Recepción: recepcion / Recepcion123!
+Profesor: profesor / Profesor123!
+Coordinación: coordinacion / Coordina123!
+
+El sistema guarda los cambios de esta demostración en el almacenamiento local del navegador.
+Para restablecer los datos de ejemplo, cierra sesión y usa la opción de reinicio disponible para Administración.
+Estas cuentas son solo para demostración; no uses estas contraseñas en un sistema publicado.
