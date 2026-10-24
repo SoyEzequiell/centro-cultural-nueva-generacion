@@ -1,11 +1,15 @@
 const express = require('express');
 const cors = require('cors');
 const bcrypt = require('bcryptjs');
+const path = require('path'); // Requerido para manejar rutas de carpetas
 const db = require('./database');
 
 const app = express();
 app.use(express.json());
 app.use(cors());
+
+// Configurar la carpeta superior para que sirva los archivos estáticos (HTML, CSS, JS)
+app.use(express.static(path.join(__dirname, '../')));
 
 // Paso A: Alta de usuario por el Administrador
 app.post('/api/usuarios', async (req, res) => {
@@ -106,7 +110,6 @@ app.post('/api/login-google', (req, res) => {
             return res.status(401).json({ error: 'Acceso denegado: Este correo no esta autorizado en el sistema' });
         }
 
-        // Si ya tenia cuenta pero no habia vinculado su google_id, lo guardamos automaticamente
         if (!user.google_id && google_id) {
             db.run(`UPDATE usuarios SET google_id = ? WHERE id = ?`, [google_id, user.id]);
         }
@@ -121,6 +124,11 @@ app.post('/api/login-google', (req, res) => {
             }
         });
     });
+});
+
+// Ruta raíz para servir el index.html principal
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../index.html'));
 });
 
 const PORT = process.env.PORT || 3000;
