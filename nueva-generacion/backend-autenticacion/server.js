@@ -1,14 +1,14 @@
 const express = require('express');
 const cors = require('cors');
 const bcrypt = require('bcryptjs');
-const path = require('path'); // Requerido para manejar rutas de carpetas
+const path = require('path');
 const db = require('./database');
 
 const app = express();
 app.use(express.json());
 app.use(cors());
 
-// Configurar la carpeta superior para que sirva los archivos estáticos (HTML, CSS, JS)
+// Servir archivos estáticos desde la carpeta superior (donde está el index.html)
 app.use(express.static(path.join(__dirname, '../')));
 
 // Paso A: Alta de usuario por el Administrador
@@ -126,7 +126,7 @@ app.post('/api/login-google', (req, res) => {
     });
 });
 
-// Ruta raíz para servir el index.html principal
+// Ruta raíz limpia para servir el index.html principal ubicado en la carpeta superior
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
@@ -134,11 +134,4 @@ app.get('/', (req, res) => {
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
-});
-// Servir archivos estáticos desde la misma carpeta actual
-app.use(express.static(path.join(__dirname)));
-
-// Ruta raíz para servir el index.html
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
 });
