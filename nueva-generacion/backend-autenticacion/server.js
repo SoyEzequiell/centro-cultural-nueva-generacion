@@ -135,3 +135,10 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
+// Servir archivos estáticos desde la misma carpeta actual
+app.use(express.static(path.join(__dirname)));
+
+// Ruta raíz para servir el index.html
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
